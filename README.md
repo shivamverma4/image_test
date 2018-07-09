@@ -16,13 +16,12 @@ coloring, like a solid blue sky or a white wall, will likely have a lower ELA re
 
 
 ### Description of the folders and files in the repository ###
-1. **Initial_Test**: Contains the images on which I tested the implementation of the algorithm in C++ sans the python wrapper
-2. **Photoshop_Test**: Contains the images on which I tested the implementation of the wrapper and in a sense the working of thw whole 
+1. **Photoshop_Test**: Contains the images on which I tested the implementation of the wrapper and in a sense the working of thw whole 
 project.
-3. **Wrapper_Files**:
+2. **Wrapper_Files**:
   * ela.hpp: Contains the function definitions that were used in the file ela_cython.cpp.
   * setup.py: Builds the wrapper.cpp file which makes the function callable from a python scripts.
   * wrapper.pyx: Cython file which acts as the interface between the C++ code and the python interpreter.
-4. **ela.cpp**: The first implementation of the algorithm in C++. Works fine on it's own 
-5. **ela_cython.cpp**: The actual code for the algorithm modified to make it compatible with the cython compiler.
-6. **run.py** : The file to run on your python interpreter.
+3. **ela.cpp**: The first implementation of the algorithm in C++. Works fine on it's own 
+4. **ela_cython.cpp**: The actual code for the algorithm modified to make it compatible with the cython compiler.
+5. **run.py** : The file to run on your python interpreter.
